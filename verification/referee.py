@@ -38,7 +38,7 @@ api.add_listener(
     CheckiOReferee(
         tests=TESTS,
         function_name={
-            "python": "{{FUNC}}",
+            "python": "tarifa_taxi_evento",
             "js": "countConsecutiveSummers"
         },
         cover_code={

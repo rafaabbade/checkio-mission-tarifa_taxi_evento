@@ -1,22 +1,22 @@
 <!-- Describe task in general -->
 <p>
-    {{TIPO}}
+    <strong>Verificação de Aprendizagem:</strong> Avalie sua compreensão. Tente resolver sem consultar materiais, usando apenas seu conhecimento. Identifique áreas que precisam de revisão.
 </p>
 <h4>Enunciado</h4>
 
 <p>
-    {{ENUNCIADO}}
+    Rita percebeu que durante eventos na cidade, como shows ou jogos esportivos, a demanda por táxis aumenta. Ela quer que a ferramenta ajuste automaticamente o cálculo da corrida com base na ocorrência desses eventos. Caso tenha evento na cidade, a tarifa base deve ser multiplicada por 2 e a tarifa por quilômetro por 1,5.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> {{ENTRADA}}
+    <strong>Entrada: </strong> Quilômetros percorridos (float), tarifa base (float), tarifa por quilômetro (float) e um booleano indicando se há evento.
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Custo total da corrida ajustado conforme a ocorrência de eventos (float).
 </p>
 
 
@@ -32,11 +32,12 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    tarifa_taxi_evento(10.0, 2.0, 3.0, False) >> 32.0
 </pre>
 {% endif %}
 </div>
 <h4>Habilidades</h4>
 <ul>
-    {{HABILIDADES}}
+    <li>Operações Aritméticas Básicas</li>
+<li>Lógica de Condições e Decisões</li>
 </ul>
